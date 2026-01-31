@@ -84,4 +84,4 @@ CREATE TABLE event_participants (
 
 -- Standard Admin Benutzer erstellen (Passwort: admin123)
 INSERT INTO users (username, password_hash, full_name, is_approved, is_admin) 
-VALUES ('admin', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'Administrator', TRUE, TRUE);
+VALUES ('admin', '$2y$10$jiy/m.hHm8Xf0HWqu8Wm6OgyXS/n7j/tzMYU/og5qejfQstY3Nwym', 'Administrator', TRUE, TRUE);
